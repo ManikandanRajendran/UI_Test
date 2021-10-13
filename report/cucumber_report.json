@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 32000000
+              "duration": 33000000
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 4,
             "name": "setup the environment details",
             "match": {
-              "location": "features/steps/recordTeams.steps.js:10"
+              "location": "features/steps/recordTeams.steps.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 7,
             "name": "the user is on Football Scores & Fixtures page",
             "match": {
-              "location": "features/steps/recordTeams.steps.js:15"
+              "location": "features/steps/recordTeams.steps.js:17"
             },
             "result": {
               "status": "passed",
-              "duration": 2581000000
+              "duration": 3079000000
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 8,
             "name": "the user enters the keyword sports and click search",
             "match": {
-              "location": "features/steps/recordTeams.steps.js:20"
+              "location": "features/steps/recordTeams.steps.js:26"
             },
             "result": {
               "status": "passed",
-              "duration": 7483000000
+              "duration": 7530000000
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 9,
             "name": "the user should be displayed search result page",
             "match": {
-              "location": "features/steps/recordTeams.steps.js:29"
+              "location": "features/steps/recordTeams.steps.js:35"
             },
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 21000000
             }
           },
           {
@@ -75,11 +75,11 @@
             "line": 10,
             "name": "output the first and last heading of the article",
             "match": {
-              "location": "features/steps/recordTeams.steps.js:34"
+              "location": "features/steps/recordTeams.steps.js:40"
             },
             "result": {
               "status": "passed",
-              "duration": 508000000
+              "duration": 569000000
             }
           },
           {
@@ -87,7 +87,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 56000000
+              "duration": 59000000
             }
           }
         ],
@@ -101,5 +101,1355 @@
     "name": "Read article related to sports",
     "tags": [],
     "uri": "features/articles.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-all-negative-scenarios-for-login;verify-whther-the-application-throws-proper-error-message-when-entering-invalid-email",
+        "keyword": "Scenario Outline",
+        "line": 7,
+        "name": "Verify whther the application throws proper error message when entering invalid email",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "setup the environment details",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is on Football Scores & Fixtures page",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3062000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user clicks sign in button",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3677000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user enters email as \"\"",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1546000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user should see the error message as \"Empty\" for invalid email",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 334000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 113000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-all-negative-scenarios-for-login;verify-whther-the-application-throws-proper-error-message-when-entering-invalid-email",
+        "keyword": "Scenario Outline",
+        "line": 7,
+        "name": "Verify whther the application throws proper error message when entering invalid email",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "setup the environment details",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is on Football Scores & Fixtures page",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2880000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user clicks sign in button",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3616000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user enters email as \"a\"",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1487000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user should see the error message as \"tooShort\" for invalid email",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 292000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 56000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-all-negative-scenarios-for-login;verify-whther-the-application-throws-proper-error-message-when-entering-invalid-email",
+        "keyword": "Scenario Outline",
+        "line": 7,
+        "name": "Verify whther the application throws proper error message when entering invalid email",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "setup the environment details",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is on Football Scores & Fixtures page",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2863000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user clicks sign in button",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3702000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user enters email as \"ac.ac\"",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1484000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user should see the error message as \"invalidUsername\" for invalid email",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 319000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 64000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-all-negative-scenarios-for-login;verify-whther-the-application-throws-proper-error-message-when-entering-invalid-email",
+        "keyword": "Scenario Outline",
+        "line": 7,
+        "name": "Verify whther the application throws proper error message when entering invalid email",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "setup the environment details",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is on Football Scores & Fixtures page",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3026000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user clicks sign in button",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3595000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user enters email as \"*****\"",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1456000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user should see the error message as \"SpecialSymbols\" for invalid email",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 284000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-all-negative-scenarios-for-login;verify-whther-the-application-throws-proper-error-message-when-entering-invalid-email",
+        "keyword": "Scenario Outline",
+        "line": 7,
+        "name": "Verify whther the application throws proper error message when entering invalid email",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "setup the environment details",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is on Football Scores & Fixtures page",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2589000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user clicks sign in button",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3692000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user enters email as \"ac@ac@ac.com\"",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1491000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user should see the error message as \"invalidEmail\" for invalid email",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 288000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-all-negative-scenarios-for-login;verify-whther-the-application-throws-proper-error-message-when-entering-invalid-password",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Verify whther the application throws proper error message when entering invalid password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "setup the environment details",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "the user is on Football Scores & Fixtures page",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2494000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the user clicks sign in button",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3635000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "user enters password as \"\"",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1501000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "user should see the error message as \"Empty\" for invalid password",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 242000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-all-negative-scenarios-for-login;verify-whther-the-application-throws-proper-error-message-when-entering-invalid-password",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Verify whther the application throws proper error message when entering invalid password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "setup the environment details",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "the user is on Football Scores & Fixtures page",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2536000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the user clicks sign in button",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3596000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "user enters password as \"a\"",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1521000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "user should see the error message as \"tooShort\" for invalid password",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 310000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-all-negative-scenarios-for-login;verify-whther-the-application-throws-proper-error-message-when-entering-invalid-password",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Verify whther the application throws proper error message when entering invalid password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "setup the environment details",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "the user is on Football Scores & Fixtures page",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2536000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the user clicks sign in button",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3654000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "user enters password as \"abcdeefgh\"",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1631000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "user should see the error message as \"onlyLetters\" for invalid password",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 278000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-all-negative-scenarios-for-login;verify-whther-the-application-throws-proper-error-message-when-entering-invalid-password",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Verify whther the application throws proper error message when entering invalid password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "setup the environment details",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "the user is on Football Scores & Fixtures page",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2546000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the user clicks sign in button",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3634000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "user enters password as \"12345678\"",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1498000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "user should see the error message as \"onlyNumbers\" for invalid password",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 299000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-all-negative-scenarios-for-login;verify-whther-the-application-throws-proper-error-message-when-entering-invalid-password",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Verify whther the application throws proper error message when entering invalid password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "setup the environment details",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "the user is on Football Scores & Fixtures page",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2758000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the user clicks sign in button",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3588000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "user enters password as \"*********\"",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1486000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "user should see the error message as \"onlySpecial\" for invalid password",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 281000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 59000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-all-negative-scenarios-for-login;verify-whther-the-application-throws-proper-error-message-when-entering-invalid-password",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Verify whther the application throws proper error message when entering invalid password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "setup the environment details",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "the user is on Football Scores & Fixtures page",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2591000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the user clicks sign in button",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3690000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "user enters password as \"12345****\"",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1496000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "user should see the error message as \"noLetter\" for invalid password",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 304000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-all-negative-scenarios-for-login;verify-whther-the-application-throws-proper-error-message-for-login-failure-with-invalid-inputs",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "Verify whther the application throws proper error message for login failure with invalid inputs",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "setup the environment details",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "the user is on Football Scores & Fixtures page",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2795000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "the user clicks sign in button",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3632000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "user enters email as \"t@t.com\"",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1568000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "user enters password as \"pass1234\"",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1443000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "click Sign in",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 612000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "user should be displayed with proper error for the scenario \"NoAccount\"",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 467000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-all-negative-scenarios-for-login;verify-whther-the-application-throws-proper-error-message-for-login-failure-with-invalid-inputs",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "Verify whther the application throws proper error message for login failure with invalid inputs",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "setup the environment details",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "the user is on Football Scores & Fixtures page",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2693000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "the user clicks sign in button",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3661000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "user enters email as \"test1\"",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1508000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "user enters password as \"password12\"",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1402000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "click Sign in",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 632000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "user should be displayed with proper error for the scenario \"invalidPassword\"",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:80"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 437000000,
+              "error_message": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\u001b[32m+ actual\u001b[39m \u001b[31m- expected\u001b[39m\n\n\u001b[32m+\u001b[39m 'Uh oh, that password doesn’t match that account. Please try again.'\n\u001b[31m-\u001b[39m \"That's not the right password for that account. Please try again or get help here.\"\n    + expected - actual\n\n    -Uh oh, that password doesn’t match that account. Please try again.\n    +That's not the right password for that account. Please try again or get help here.\n\n    at driverWorld.<anonymous> (/home/manikandan/Documents/UI_Test/features/steps/recordTeams.steps.js:96:12)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 109000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-all-negative-scenarios-for-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Verify all negative scenarios for login",
+    "tags": [],
+    "uri": "features/loginNegativeScenarios.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "make-a-record-of-all-teams-which-are-playing-today;output-all-team-names-with-a-match-today.-if-there-are-no-matches-today,-output-a-message-to-convey-this.",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Output all team names with a match today. If there are no matches today, output a message to convey this.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "setup the environment details",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is on Football Scores & Fixtures page",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2595000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user seeing todays Scores & Fixtures",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 278000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user should be able to see all the team names with a match today",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14482000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "make-a-record-of-all-teams-which-are-playing-today",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Make a record of all teams which are playing today",
+    "tags": [],
+    "uri": "features/recordTeams.feature"
   }
 ]
