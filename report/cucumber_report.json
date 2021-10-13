@@ -1,0 +1,105 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "read-article-related-to-sports;use-the-search-option-to-find-all-articles-related-to-‘sports’.-output-the-first-heading-and-the-last-heading-returned-on-the-page.",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Use the search option to find all articles related to ‘sports’. Output the first heading and the last heading returned on the page.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "setup the environment details",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is on Football Scores & Fixtures page",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2581000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user enters the keyword sports and click search",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7483000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user should be displayed search result page",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "output the first and last heading of the article",
+            "match": {
+              "location": "features/steps/recordTeams.steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 508000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 56000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "read-article-related-to-sports",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Read article related to sports",
+    "tags": [],
+    "uri": "features/articles.feature"
+  }
+]
